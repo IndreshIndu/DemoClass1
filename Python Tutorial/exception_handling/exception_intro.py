@@ -20,7 +20,7 @@ try:
 #except:
 #    print("Invalid input")
 
-#except ZeroDivisionError as ze: #individual handling of each errors
+#except ZeroDivisionError as ze: #individual handling of each errors #specific error
 #    print("Zero Division Error")
 #    print(ze)
     
@@ -33,7 +33,7 @@ try:
     
         print(3/"abc")
     
-except Exception as msg:
+except Exception as msg: #default exception block
     print(msg)
 
 print(5%2)
